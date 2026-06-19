@@ -1,4 +1,4 @@
-class Solution {
+class palindrome {
     public boolean isPalindrome(int x) {
           int n = x;
         int reverse = 0;
@@ -17,7 +17,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        palindrome sol = new palindrome();
         int x = 121;
         boolean result = sol.isPalindrome(x);
         System.out.println(result); // Output: true

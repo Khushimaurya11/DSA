@@ -1,5 +1,5 @@
 public class sqrt {
-    class Solution {
+    class Solver {
     public int mySqrt(int x) {
         if(x == 0) return 0;
       int l = 1;
@@ -22,7 +22,7 @@ public class sqrt {
     public static void main(String[] args) {
         sqrt sol = new sqrt();
         int x = 8;
-        int result = sol.new Solution().mySqrt(x);
+        int result = sol.new Solver().mySqrt(x);
         System.out.println(result); // Output: 2
     }
     }

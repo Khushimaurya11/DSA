@@ -1,5 +1,5 @@
 public class Rotate_Array {
-    class Solution {
+    class Solver {
     public void rotate(int[] nums, int k) {
         int n = nums.length;
        k %= n;
@@ -23,7 +23,7 @@ public void reverse(int[] nums, int start, int end){
         Rotate_Array sol = new Rotate_Array();
         int[] nums = {1, 2, 3, 4, 5, 6, 7};
         int k = 3;
-        sol.new Solution().rotate(nums, k);
+        sol.new Solver().rotate(nums, k);
         System.out.print("Rotated array: ");
         for (int num : nums) {
             System.out.print(num + " ");

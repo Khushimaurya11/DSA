@@ -1,5 +1,5 @@
 public class Missing_number {
-    class Solution {
+    class Solver {
     public int missingNumber(int[] nums) {
         int n = nums.length;
         int xor = 0;
@@ -16,7 +16,7 @@ public class Missing_number {
     public static void main(String[] args) {
         Missing_number sol = new Missing_number();
         int[] nums = {3, 0, 1};
-        int result = sol.new Solution().missingNumber(nums);
+        int result = sol.new Solver().missingNumber(nums);
         System.out.println(result); // Output: 2
     }
 }

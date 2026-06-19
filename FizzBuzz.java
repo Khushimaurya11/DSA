@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FizzBuzz {
-    class Solution {
+    class Solver {
     public List<String> fizzBuzz(int n) {
         List<String> answer = new ArrayList<>();
         for(int i = 1; i<=n ; i++){
@@ -26,7 +26,7 @@ public class FizzBuzz {
     public static void main(String[] args) {
         FizzBuzz sol = new FizzBuzz();
         int n = 15;
-        List<String> result = sol.new Solution().fizzBuzz(n);
+        List<String> result = sol.new Solver().fizzBuzz(n);
         System.out.println(result); // Output: [1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz]
     }
 }
