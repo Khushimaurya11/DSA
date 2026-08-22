@@ -9,6 +9,12 @@ class Solution {
                ans.add(nums1[i]);
                i++;
             }
+             else if(nums1[i] == nums2[j]){
+                ans.add(nums1[i]);
+                 ans.add(nums2[j]);
+                 i++;
+                 j++;
+            }
              else{
                 ans.add(nums2[j]);
                 j++;
