@@ -19,8 +19,9 @@ class Solution {
             if(j==n) break;
                 countWindow[s.charAt(i) - 'a']--;
                 i++;
-                countWindow[s.charAt(j) - 'a']++;
+                  countWindow[s.charAt(j) - 'a']++;
                j++;
+             
         }
 
         return res;
